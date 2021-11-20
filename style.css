@@ -2,5 +2,11 @@ img{
     max-width: 100%;
 }
 .welcome-page{
-    background-image:url(./pictures/backgrounds/h_img.jpg)
+    background-image:url(./pictures/backgrounds/h_img.jpg);
+    max-width: auto;
+    text-align: center;
+    color: white;
+}
+.about-us{
+    text-align: center;
 }
