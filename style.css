@@ -3,10 +3,58 @@ img{
 }
 .welcome-page{
     background-image:url(./pictures/backgrounds/h_img.jpg);
-    max-width: auto;
-    text-align: center;
-    color: white;
+    /* max-width: auto; */
+    /* text-align: center; */
+    /* color: white; */
+    height: 100vh;
 }
+.welcome-page h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.welcome-page h4{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
 .about-us{
     text-align: center;
+}
+.services{
+    background-image:url(./pictures/backgrounds/s_image.jpg);
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+.contact-us{
+    background-image:url(./pictures/backgrounds/c_image.jpg);
+    /* color: white; */
+    /* text-align: center; */
+    height: 400px;
+}
+input{
+    color: white;
+    background:transparent;
+    width: 95%;
+}
+input[type="text"],[type="email"]{
+    background: transparent;
+    border: 1px solid white;
+}
+textarea{
+    background:transparent;
+    border: 1px solid white;
+    margin-left: 300px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+#myrow{
+    /* background-color: lightblue; */
+    width: 70%;
+    margin-left: 300px;
+    padding-top: 20px;
 }
