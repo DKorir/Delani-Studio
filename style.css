@@ -1,3 +1,6 @@
+*{
+    font-size: xx-small;
+}
 img{
     max-width: 100%;
 }
@@ -26,13 +29,13 @@ img{
     background-image:url(./pictures/backgrounds/s_image.jpg);
     color: white;
     text-align: center;
-    height: 400px;
+    height: 250px;
 }
 .contact-us{
     background-image:url(./pictures/backgrounds/c_image.jpg);
     /* color: white; */
     /* text-align: center; */
-    height: 400px;
+    height: 300px;
 }
 input{
     color: white;
@@ -46,15 +49,22 @@ input[type="text"],[type="email"]{
 textarea{
     background:transparent;
     border: 1px solid white;
-    margin-left: 300px;
+    margin-left: 40px;
     color: white;
+    padding: 20px;
+    margin-right: 30px;
 }
 ::placeholder{
     color: white;
 }
 #myrow{
-    /* background-color: lightblue; */
-    width: 70%;
-    margin-left: 300px;
-    padding-top: 20px;
+    
+    /* padding-top: 20px; */
+    padding: 20px;
+}
+.social-media-icons{
+    text-align: center;
+}
+.closing{
+    text-align: center;
 }
