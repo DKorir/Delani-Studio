@@ -1,0 +1,45 @@
+$(document).ready(function(){
+    $("#img").on({
+        mouseover:function(){
+            $("#par").toggle()
+      },
+      mouseout:function(){
+            $("#par").toggle()
+      }
+    })
+    $("#img-1").on("click",function(){
+        $("#img-1").hide();
+        $("#header4").addClass("header");
+        $("#para4").show();
+        $("#para4").addClass("desc-para");
+    })
+})
+
+//mouseonhover toggle portfolio images to show description//
+
+$(document).ready(function(){
+    $("#image-1").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-2").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-3").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-4").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-5").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-6").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-7").hover(function(){
+        $(".details").toggle()
+    })
+    $("#image-8").hover(function(){
+        $(".details").toggle()
+    })
+});
