@@ -1,20 +1,25 @@
-/* *{ */
-    /* font-size: small; */
-/* } */
+*{
+    font-size: small;
+}
 /* img{
     max-width: 100%;
-} */
+}  */
 .welcome-page{
     background-image:url(./pictures/backgrounds/h_img.jpg);
     /* max-width: auto; */
-    /* text-align: center; */
+    text-align: center;
     /* color: white; */
     height: 100vh;
 }
+/* .welcome-page .delani-logo img{ */
+    /* text-align: center; */
+    /* padding-top: 200px; */
+/* } */
+/* .welcome-page menu-icon{} */
 .welcome-page h1{
     color: white;
     text-align: center;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
 .welcome-page h4{
     color: white;
@@ -155,4 +160,11 @@ body{
 }
 #para4{
     display: none;
+}
+
+.portfolio-header{
+    text-align: center;
+}
+.what-we-do{
+    text-align: center;
 }
