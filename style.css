@@ -11,20 +11,27 @@
 }
 .welcome-page .logo{
     text-align: center;
-    padding-top: 50px;
+    margin-top: 320px;
+    margin-left: 8%;
 }
 .welcome-page h1{
     color: white;
     text-align: center;
-    padding-top: 60px;
+    margin-left: 8%;
+    margin-top: 80px;
 }
 .welcome-page h4{ 
     color: white;
     text-align: center; 
     font-size: x-small;
+    margin-left: 8%;
+    margin-top: 0px;
 }
 .welcome-page .mouseonclick{
     text-align: center;
+    margin-left: 8%;
+    margin-top: 180px;
+
 }
 
 .about-us{
@@ -191,6 +198,40 @@ body{
 .portfolio-header{ 
     text-align: center;
 }
-/* .what-we-do{ */
-    /* text-align: center; */
-/* } */
+
+/* //media query// */
+
+@media only screen and (min-width: 640px){
+    .container{
+        flex-basis: 50%;
+    }
+    .container-fluid{
+        flex-basis: 50%;
+    }
+    .portfolio-container{
+        flex-basis: 50%;
+    }
+}
+@media only screen and (min-width: 960px){
+    .container{
+        flex-basis: 33.333%;
+    }
+    .container-fluid{
+        flex-basis: 33.333%;
+        
+    }
+    .portfolio-container{
+        flex-basis: 33.333%;
+    }
+}
+@media only screen and (min-width: 1280px){
+    .container{
+        flex-basis: 25%;
+    }
+    .container-fluid{
+        flex-basis: 25%;
+    }
+    .portfolio-container{
+        flex-basis: 25%;
+    }
+}
